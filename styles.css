@@ -4,18 +4,90 @@
     align-content: center;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000;
+    color: rgb(236, 223, 223);
 }
 
 .links {
     display: flex;
     align-items: stretch;
     justify-content: space-around;
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+}
+
+.links p:hover {
+    text-decoration: underline;
+    
 }
 
 .links p {
     margin: 1em;
 }
 
-body {
-    background-image: url('')
+.links p a {
+    color: rgb(236, 223, 223);
+    text-decoration: none;
+    font-size: 20px;
 }
+
+h1 a {
+    text-decoration: none;
+    color: rgb(236, 223, 223);
+}
+
+.content {
+    background-color: rgba(24, 36, 39, 0.911);
+    color: rgb(236, 223, 223);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-family: 'PT Serif', serif;
+    padding: 4em;
+    border-radius: 7px;
+}
+
+
+.contentHeader {
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+}
+
+.igLogo {
+    height: 5em;
+    width: 5em;
+    margin: 10px;
+}
+
+form {
+    color: rgb(236, 223, 223);
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-image: url('./pictures/')
+}
+
+.nameLink {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* 
+info under imgs
+Didact Gothic
+
+Name font
+Julius sans one
+
+Writing in artist statement
+Sorts Mill Goudy
+
+
+
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Sorts Mill Goudy', serif;
+*/

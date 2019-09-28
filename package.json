@@ -1,0 +1,21 @@
+{
+  "name": "mckinnon.herring",
+  "version": "1.0.0",
+  "description": "McKinnon Herring's Website",
+  "main": "script.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "test123"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kpconway519/McKinnon.Herring.git"
+  },
+  "author": "Kevin P Conway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kpconway519/McKinnon.Herring/issues"
+  },
+  "homepage": "https://github.com/Kpconway519/McKinnon.Herring#readme"
+}
