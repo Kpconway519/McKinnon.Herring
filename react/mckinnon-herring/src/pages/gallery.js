@@ -1,12 +1,13 @@
 
 import React from "react";
-
+import Slideshow from "../components/slideshow/slide";
 
 function Gallery() {
   return (
 
-    <div class="content">
-            <h1 class="contentHeader">Gallery</h1>
+    <div className="content">
+            <h1 className="contentHeader">Gallery</h1>
+            <Slideshow />
     </div>
 
 

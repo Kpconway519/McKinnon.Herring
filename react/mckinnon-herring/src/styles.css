@@ -67,12 +67,17 @@ form {
 }
 
 body {
-    background-image: url('./pictures/DSC_0021.jpg')
+    background-image: url('./pictures/snakeHands.JPG')
 }
 
 .nameLink {
     font-family: 'Montserrat', sans-serif;
 
+}
+
+.emailText {
+    width: 50em;
+    height: 27em;
 }
 
 /* 

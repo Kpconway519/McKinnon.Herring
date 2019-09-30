@@ -4,8 +4,8 @@ import React from "react";
 function About() {
   return (
 
-    <div class="content">
-        <h1 class="contentHeader">About</h1>
+    <div className="content">
+        <h1 className="contentHeader">About</h1>
         <article>
             <p>
                 Throughout my work, I represent the theme of joy in the face of the trauma and fear of everyday life. I desire wholeheartedly to express my deepest and most powerful thoughts and feelings to others. I work to achieve this through manipulation of medium, by use of color and through choice of subject. I gain tremendous insight when I create something outside myself that represents the sad and brutal, yet beautiful and transcendental way I experience life.

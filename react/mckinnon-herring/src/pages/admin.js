@@ -5,8 +5,8 @@ import React from "react";
 function Admin() {
   return (
 
-    <div class="content">
-            <h1 class="contentHeader">Admin Page</h1>
+    <div className="content">
+            <h1 className="contentHeader">Admin Page</h1>
 
             {/* <input type="button" value="Upload Image">
             <input type="file" name="" id="">
