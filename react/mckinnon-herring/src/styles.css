@@ -80,6 +80,38 @@ body {
     height: 27em;
 }
 
+.gridSquare {
+    height: auto;
+    max-width: 55%;
+    margin: 2em;
+  }
+
+.gridSquare:hover {
+    opacity: .5;
+}
+
+.galleryContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.artDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.artDetails p {
+    margin: .2em;
+}
+
+.artTitle {
+    width: 5em;
+}
+
 /* 
 info under imgs
 Didact Gothic

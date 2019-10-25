@@ -1,5 +1,6 @@
 
-import React, { Component } from "react";
+import React, { Component, Link } from "react";
+import igLogo from "../pictures/igLogo.png";
 
 
 class Contact extends Component {
@@ -27,29 +28,24 @@ class Contact extends Component {
     event.preventDefault();
   }
 
+  igLink() {
+    window.location = "www.google.com"
+  }
+
   render() {
     return (
 
       <div className="content"><h1 className="contentHeader">Contact</h1> 
-      
-      <form onSubmit={this.handleSubmit}>
-        <label>
-          <p>Email:</p>
-          <input type="text" name="email" value={this.state.email} onChange={this.handleChange} />
-          <p>
-            Subject:
-          </p>
-          <input type="text" name="subject" value={this.state.subject} onChange={this.handleChange} />
-          <p>
-            Message:
-          </p>
-          <textarea className="emailText" type="text" name="message" value={this.state.message} onChange={this.handleChange} />
-        </label>
-        <div>
-        <input type="submit" value="Submit" />
-        </div>
-      </form>
+
+      <div>
+        <p>Message me on Instagram!</p>
+        <a href="https://www.instagram.com/a.j.mckinnon/" >
+        <img src={igLogo}></img>
+        </a>
       </div>
+      
+    </div>
+
     );
   }
 

@@ -9,6 +9,7 @@ import {
  import Gallery from "./pages/gallery";
  import Contact from "./pages/contact";
  import Admin from "./pages/admin";
+ let igLink = "www.google.com"
 
 function RouteControl() {
   return (
